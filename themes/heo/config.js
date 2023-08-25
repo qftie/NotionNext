@@ -1,27 +1,27 @@
 const CONFIG = {
   HOME_BANNER_ENABLE: true,
 
-  SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
+  SITE_CREATE_TIME: '2023-08-01', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+    // { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
+    // { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
   ],
 
   // 英雄区(首页顶部大卡)
-  HERO_TITLE_1: '编程开发',
-  HERO_TITLE_2: '与学习记录',
-  HERO_TITLE_3: 'qftie.vercel.app',
-  HERO_TITLE_LINK: 'https://tangly1024.com',
+  HERO_TITLE_1: '学习与思考',
+  HERO_TITLE_2: '开发与实践',
+  HERO_TITLE_3: 'mapletx.com',
+  HERO_TITLE_LINK: 'https://www.mapletx.com/',
   // HERO_TITLE_4: '纯净博客',
   // HERO_TITLE_5: '逛逛我的博客园？',
   // HERO_TITLE_LINK: 'https://www.cnblogs.com/qftie/',
 
   // 英雄区显示三个置顶分类
-  HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
-  HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
-  HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
+  HERO_CATEGORY_1: { title: '必看精选', url: '/tag/推荐' },
+  HERO_CATEGORY_2: { title: '开发', url: '/tag/开发' },
+  HERO_CATEGORY_3: { title: 'AI', url: '/tag/AI' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HERO_RECOMMEND_POST_TAG: '推荐',
@@ -33,10 +33,9 @@ const CONFIG = {
     '🔍 分享与热心帮助',
     '🤝 专修交互与设计',
     '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
     '🤖️ 数码科技爱好者',
   ],
-  INFO_CARD_URL: 'https://github.com/tangly1024/NotionNext', // 个人资料底部按钮链接
+  INFO_CARD_URL: 'https://github.com/qftie', // 个人资料底部按钮链接
 
   // 用户技能图标
   GROUP_ICONS: [
@@ -98,7 +97,7 @@ const CONFIG = {
     }
   ],
 
-  SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
+  SOCIAL_CARD: false, // 是否显示右侧，点击加入社群按钮
   SOCIAL_CARD_TITLE_1: '交流频道',
   SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
   SOCIAL_CARD_TITLE_3: '点击加入社群',
