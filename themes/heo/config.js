@@ -14,9 +14,9 @@ const CONFIG = {
   HERO_TITLE_2: '与学习记录',
   HERO_TITLE_3: 'qftie.vercel.app',
   HERO_TITLE_LINK: 'https://tangly1024.com',
-  HERO_TITLE_4: '纯净博客',
-  HERO_TITLE_5: '逛逛我的博客园？',
-  HERO_TITLE_LINK: 'https://www.cnblogs.com/qftie/',
+  // HERO_TITLE_4: '纯净博客',
+  // HERO_TITLE_5: '逛逛我的博客园？',
+  // HERO_TITLE_LINK: 'https://www.cnblogs.com/qftie/',
 
   // 英雄区显示三个置顶分类
   HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
