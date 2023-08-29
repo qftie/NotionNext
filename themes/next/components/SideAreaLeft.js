@@ -10,6 +10,7 @@ import Card from './Card'
 import CONFIG from '../config'
 import BLOG from '@/blog.config'
 import Live2D from '@/components/Live2D'
+import { AdSlot } from '@/components/GoogleAdsense'
 
 /**
  * 侧边平铺
@@ -66,7 +67,7 @@ const SideAreaLeft = props => {
                     </div>
                 </Tabs>
             </Card>
-
+            
             <div className='flex justify-center'>
                 {slot}
                 <Live2D />

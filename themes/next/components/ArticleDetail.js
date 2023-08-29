@@ -14,6 +14,7 @@ import CONFIG from '../config'
 import NotionIcon from '@/components/NotionIcon'
 import LazyImage from '@/components/LazyImage'
 import { formatDateFmt } from '@/lib/formatDate'
+import { AdSlot } from '@/components/GoogleAdsense'
 
 /**
  *
@@ -89,6 +90,8 @@ export default function ArticleDetail(props) {
 
                     {/* 版权声明 */}
                     {post?.type === 'Post' && <ArticleCopyright author={BLOG.AUTHOR} url={url} />}
+
+                    <AdSlot type='in-article'></AdSlot>
 
                     {/* 推荐文章 */}
                     {post?.type === 'Post' && <RecommendPosts currentPost={post} recommendPosts={recommendPosts} />}
