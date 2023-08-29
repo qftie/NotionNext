@@ -5,6 +5,7 @@ import { useGlobal } from '@/lib/global'
 import throttle from 'lodash.throttle'
 import React, { useCallback, useEffect, useRef, useState } from 'react'
 import CONFIG from '../config'
+import { AdSlot } from '@/components/GoogleAdsense'
 
 /**
  * 博客列表滚动分页
@@ -56,9 +57,10 @@ const BlogPostListScroll = ({ posts = [], currentSearch, showSummary = CONFIG.PO
 
       {/* 文章列表 */}
       <div id='posts-wrapper' className='flex flex-wrap space-y-1 lg:space-y-4'>
-        {postsToShow.map(post => (
+        {postsToShow.map((post, index) => (<div key={post.id}>
+          { (index + 1) === 4 && <AdSlot type='flow'/>}
           <BlogPostCard key={post.id} post={post} showSummary={showSummary} />
-        ))}
+        </div>))}
       </div>
 
       <div>
